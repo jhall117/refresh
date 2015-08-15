@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+       public Dog munson = new Dog(4,true,"medium");
+       System.out.println(munson.);
+	}
+
+}

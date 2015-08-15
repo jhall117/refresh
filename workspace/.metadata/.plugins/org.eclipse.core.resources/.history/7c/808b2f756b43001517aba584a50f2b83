@@ -1,0 +1,9 @@
+
+public class Dog extends Animal {
+
+	public Dog(int in_numLegs, boolean in_hungry, String in_size) {
+		super(in_numLegs, in_hungry, in_size);
+		// TODO Auto-generated constructor stub
+	}
+
+}

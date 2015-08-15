@@ -1,0 +1,26 @@
+
+public class Dog extends Animal {
+
+	private boolean wagging_tail = false;
+	private String name = "";
+	public Dog(int in_numLegs, boolean in_hungry, String in_size, String in_name) {
+		super(in_numLegs, in_hungry, in_size);
+		this.name = in_name;
+	}
+    
+	public void wagTail (){
+		wagging_tail = true;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public boolean isTailWagging (){
+		return wagging_tail;
+	}
+	
+	public void speak(){
+		System.out.println("Woof!");
+	}
+}

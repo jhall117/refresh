@@ -1,0 +1,12 @@
+
+public class Animal {
+   private int numLegs = 0;
+   private boolean hungry = false;
+   private String size = "";
+   
+   public Animal(int in_numLegs, boolean in_hungry, String in_size){
+	   numLegs = in_numLegs;
+	   hungry = in_hungry;
+	   size = in_size;
+   }
+}
